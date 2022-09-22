@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('check out') {
-            steps {
-                git branch: 'main', url: 'git@github.com:brajamatha123/normal.git'
-            }
-        }
         stage('list files') {
             steps {
                 sh 'ls -ltra'

@@ -6,7 +6,8 @@
  ls -ltrh
  unzip apache-tomcat-9.0.65-windows-x64.zip
  mv apache-tomcat-9.0.65 tomcat9
- cd tomcat9/bin
+ cd tomcat9/
+ cd bin/
  ls -ltrh *.sh
  chmod 755 *.sh
  sh startup.sh
